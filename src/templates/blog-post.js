@@ -25,7 +25,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: 0,
             }}
           >
-            {post.frontmatter.title}
+            <Link to={`/javascriptontoast`}>{post.frontmatter.title}</Link>
           </h1>
           <p
             style={{
@@ -60,14 +60,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link to={`javascriptontoast/${previous.fields.slug}`} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link to={`javascriptontoast/${next.fields.slug}`} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
