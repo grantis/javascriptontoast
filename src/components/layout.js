@@ -22,7 +22,7 @@ const Layout = ({ location, title, children }) => {
             textDecoration: `none`,
             color: `inherit`,
           }}
-          to={`/`}
+          to={`/jsontoast`}
         >
           {title}
         </Link>
@@ -42,7 +42,7 @@ const Layout = ({ location, title, children }) => {
             textDecoration: `none`,
             color: `inherit`,
           }}
-          to={`/`}
+          to={`/jsontoast`}
         >
           {title}
         </Link>
