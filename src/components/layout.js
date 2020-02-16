@@ -42,7 +42,7 @@ const Layout = ({ location, title, children }) => {
             textDecoration: `none`,
             color: `inherit`,
           }}
-          to={`/`}
+          to={`/javascriptontoast`}
         >
           {title}
         </Link>
