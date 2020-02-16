@@ -3,7 +3,7 @@ module.exports = {
     title: `Javascript on Toast 🍞`,
     author: `Grant Rigby`,
     description: `A blog about Javascript, Node and the Web`,
-    siteUrl: `https://grantis.github.io/jsontoast`,
+    siteUrl: `https://grantis.github.io`,
     social: {
       twitter: `grantrigby`,
     },
